@@ -7,10 +7,10 @@ const EMAIL_REGEX = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
 
 // HR-related email prefixes (prioritized over info@)
 const HR_PREFIXES = ['hr@', 'recruitment@', 'careers@', 'career@', 'humanresource@', 'humanresources@', 'talent@', 'hiring@', 'jobs@', 'job@', 'staffing@', 'people@', 'vacancies@', 'vacancy@', 'employ@', 'employment@'];
-const INFO_PREFIXES = ['info@', 'information@', 'enquiries@', 'enquiry@', 'contact@', 'general@', 'admin@', 'office@'];
+const INFO_PREFIXES = ['info@', 'information@', 'sales@', 'company@', 'company.kenya@', 'companyinitials@', 'enquiries@', 'enquiry@', 'contact@', 'contactus@', 'headoffice@', 'talk-us@', 'letstalk', 'general@', 'admin@', 'office@'];
 
 // Prefixes to SKIP — not useful for job applications
-const SKIP_PREFIXES = ['support@', 'customercare@', 'complaints@', 'complaint@', 'help@', 'helpdesk@', 'sales@', 'marketing@', 'media@', 'press@', 'noreply@', 'no-reply@', 'billing@', 'accounts@', 'finance@', 'webmaster@', 'postmaster@', 'abuse@', 'security@'];
+const SKIP_PREFIXES = ['support@', 'customercare@', 'complaints@', 'complaint@', 'help@', 'helpdesk@', 'marketing@', 'media@', 'press@', 'noreply@', 'no-reply@', 'billing@', 'accounts@', 'finance@', 'webmaster@', 'postmaster@', 'abuse@', 'security@'];
 
 /**
  * Classify an email address by type
