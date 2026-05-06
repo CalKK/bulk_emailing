@@ -14,7 +14,7 @@ In case of any queries, don't hesitate to reach out.
 
 Thank you & Kind Regards!`;
 
-const defaultSubject = 'Master of Ceremonies for your Corporate Events for free - Calvin Kinyanjui ';
+const defaultSubject = 'Master of Ceremonies for your Corporate Events for free - Calvin Kinyanjui';
 
 /**
  * Create a Nodemailer transporter using Gmail SMTP
