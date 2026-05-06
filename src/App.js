@@ -6,17 +6,16 @@ const EMAIL_TEMPLATE = `Dear Sir/Madam,
 
 I trust this message finds you well.
 
-I go by the name of Calvin Kinyanjui, 5th Year Electrical & Electronics Engineering Student at Strathmore University awaiting graduation in August 2026. I write this email with the view to lodge an application seeking a job opportunity at [Institution]
+I go by the name of Calvin Kinyanjui. I write this email with the view to lodge an application seeking a free Master of Ceremonies service at [Institution] corporate events.
 
-I also wanted to take this time to share with you my professional portfolio.
-
-Kindly find attached below my resume and recommendation letter.
+Kindly find attached below my contact details card.
 
 In case of any queries, don't hesitate to reach out.
 
 Thank you & Kind Regards!`;
 
-const DEFAULT_SUBJECT = 'Job Application — Calvin Kinyanjui, Electrical & Electronics Engineering';
+
+const DEFAULT_SUBJECT = 'Master of Ceremonies for your Corporate Events for free - Calvin Kinyanjui';
 const DEFAULT_SENDER = 'calvinkinyanjui017@gmail.com';
 
 function App() {
@@ -718,7 +717,7 @@ function App() {
 
       {/* Footer */}
       <footer style={{ textAlign: 'center', marginTop: 40, color: 'var(--text-muted)', fontSize: 12 }}>
-        <p>Built by Calvin Kinyanjui • Strathmore University • {new Date().getFullYear()}</p>
+{/* <p>Built by Calvin Kinyanjui • Strathmore University • {new Date().getFullYear()}</p> */}
       </footer>
     </div>
   );
